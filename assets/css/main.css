@@ -214,6 +214,15 @@ p {
     text-align: justify;
 }
 
+/* ADDED */
+nav {
+    position: absolute;
+    top: 0;
+    padding: 30px;
+    width: 100vw;
+    z-index: 10;
+}
+
 header {
     margin-bottom: 1em;
 }
