@@ -108,8 +108,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 .dark {
-    color: #aaa;
-    color: rgba(255, 255, 255, 0.65);
+    color: white;
 }
 
 input, textarea, select {
@@ -2251,7 +2250,10 @@ button.alt:hover,
 }
 
 .main > .content.style1 {
-    background: url("../../images/love.jpg") top right no-repeat;
+    background: url("../../images/love.jpg") top left no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+    height: 150vh;
 }
 
 .main > .content.style2 {
