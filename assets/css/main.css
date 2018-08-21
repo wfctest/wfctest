@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:100,100italic,300,300italic,400,400italic,700,700italic");
 
 /*
 Tessellate by HTML5 UP
@@ -88,7 +88,7 @@ html {
 
 body {
     background: #F8F8F8;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 17pt;
     line-height: 1.75em;
@@ -113,7 +113,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 input, textarea, select {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 300;
     font-size: 17pt;
     line-height: 1.75em;
@@ -124,7 +124,7 @@ input, textarea, select {
 h1, h2, h3, h4, h5, h6 {
     color: #666;
     margin: 0 0 1em 0;
-    font-weight: 100;
+    font-weight: 700;
     line-height: 1.5em;
 }
 
@@ -138,7 +138,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 strong, b {
-    font-weight: 400;
+    font-weight: 800;
     color: inherit;
 }
 
@@ -2203,7 +2203,6 @@ button.alt:hover,
 
 #header header p {
     margin-top: 0;
-    font-weight: 100;
     padding: 0;
     font-size: 1.25em;
     line-height: 1.5em;
@@ -2230,7 +2229,6 @@ button.alt:hover,
 
 .main > header h2 {
     font-size: 2.25em;
-    font-weight: 100;
     margin-bottom: 0;
 }
 
@@ -2253,7 +2251,7 @@ button.alt:hover,
 }
 
 .main > .content.style1 {
-    background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+    background: url("../../images/love.jpg") top right no-repeat;
 }
 
 .main > .content.style2 {
