@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Merriweather:100,100italic,300,300italic,400,400italic,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=Quattrocento:100,100italic,300,300italic,400,400italic,700,700italic");
 
 /*
 Tessellate by HTML5 UP
@@ -88,7 +88,7 @@ html {
 
 body {
     background: #F8F8F8;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     font-weight: 300;
     font-size: 17pt;
     line-height: 1.75em;
@@ -113,7 +113,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 }
 
 input, textarea, select {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Quattrocento', sans-serif;
     font-weight: 300;
     font-size: 17pt;
     line-height: 1.75em;
