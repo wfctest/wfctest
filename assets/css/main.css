@@ -222,6 +222,9 @@ nav {
     width: 100vw;
     z-index: 10;
 }
+nav img {
+    width: 300px;
+}
 
 header {
     margin-bottom: 1em;
@@ -2181,11 +2184,17 @@ button.alt:hover,
     background-size: auto, cover;
     background-position: top left, center center;
     background-repeat: repeat, no-repeat;
-    padding: 14em 0 14em 0;
-    text-align: center;
     color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
-
+#header header {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0.8em;
+}
 #header header h1 {
     font-size: 4em;
     line-height: 1.25em;
@@ -2193,7 +2202,7 @@ button.alt:hover,
 }
 
 #header header p {
-    margin-top: 1.25em;
+    margin-top: 0;
     font-weight: 100;
     padding: 0;
     font-size: 1.25em;
@@ -2202,7 +2211,7 @@ button.alt:hover,
 }
 
 #header footer {
-    padding-top: 1.5em;
+    padding-top: 0;
 }
 
 /* Main Sections */
