@@ -123,9 +123,14 @@ input, textarea, select {
 
 h1, h2, h3, h4, h5, h6 {
     color: #666;
-    margin: 0 0 1em 0;
+    margin: 0;
     font-weight: 700;
     line-height: 1.5em;
+}
+
+/* ADDED */
+h2 {
+    margin-bottom: 0.75em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2227,19 +2232,17 @@ button.alt:hover,
     margin: 0;
 }
 
-.main > header h2 {
+/*.main > */header h2 {
     font-size: 2.25em;
-    margin-bottom: 0;
 }
 
 .main > header p {
-    margin: 2em 0 0 0;
     padding: 0;
     text-align: center;
 }
 
 .main > .content {
-    padding: 6em 0 6em 0;
+    padding: 3em 0 3em 0;
 }
 
 .main > .content h3 {
