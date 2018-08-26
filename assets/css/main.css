@@ -2211,7 +2211,7 @@ button.alt:hover,
     padding: 0;
     font-size: 1.25em;
     line-height: 1.5em;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #header footer {
@@ -2227,7 +2227,7 @@ button.alt:hover,
 
 .main > header {
     background: #fff;
-    text-align: center;
+    /*text-align: center;*/
     padding: 3em 0 3em 0;
     margin: 0;
 }
@@ -2238,7 +2238,7 @@ button.alt:hover,
 
 .main > header p {
     padding: 0;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .main > .content {
