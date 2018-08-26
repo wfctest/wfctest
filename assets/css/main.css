@@ -1813,20 +1813,20 @@ ul.actions.fit.stacked {
 
 /* Form */
 
-form .actions {
+.actions {
     margin-bottom: 0;
 }
 
-form label {
+label {
     display: block;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form select,
-form .select,
-form textarea {
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+.select,
+textarea {
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
     -ms-transition: all 0.25s ease-in-out;
@@ -1844,44 +1844,44 @@ form textarea {
     border: 0;
 }
 
-form input[type="text"]:focus,
-form input[type="email"]:focus,
-form input[type="password"]:focus,
-form select:focus,
-form .select:focus,
-form textarea:focus {
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+.select:focus,
+textarea:focus {
     outline: 0;
     box-shadow: inset 0 0 0 1px #afd9e0;
     background: #fcfcfc;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="password"],
-form select {
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
     line-height: 1.25em;
 }
 
-form textarea {
+textarea {
     min-height: 13em;
 }
 
-form select {
+select {
     position: relative;
 }
 
-form select option:not(:checked) {
+select option:not(:checked) {
     color: #000;
 }
 
-form .select {
+.select {
     position: relative;
     padding: 0;
     overflow-x: hidden;
     outline: 0;
 }
 
-form .select select {
+.select select {
     width: calc(100% + 2em);
     background: none !important;
     box-shadow: none !important;
@@ -1889,12 +1889,12 @@ form .select select {
     cursor: pointer;
 }
 
-form .select select::-moz-focus-inner {
+.select select::-moz-focus-inner {
     border: 0;
     outline: 0;
 }
 
-form .select:before {
+.select:before {
     content: '';
     position: absolute;
     top: 15%;
@@ -1906,74 +1906,74 @@ form .select:before {
     z-index: 0;
 }
 
-form .select select::-ms-expand {
+.select select::-ms-expand {
     display: none;
 }
 
-form ::-moz-focus-inner {
+::-moz-focus-inner {
     border: 0;
 }
 
-form ::-webkit-input-placeholder {
+::-webkit-input-placeholder {
     color: #aaa !important;
 }
 
-form :-moz-placeholder {
+:-moz-placeholder {
     color: #555 !important;
 }
 
-form ::-moz-placeholder {
+::-moz-placeholder {
     color: #555 !important;
 }
 
-form :-ms-input-placeholder {
+:-ms-input-placeholder {
     color: #555 !important;
 }
 
-.dark form input[type="text"],
-.dark form input[type="email"],
-.dark form input[type="password"],
-.dark form select,
-.dark form .select,
-.dark form textarea {
+.dark input[type="text"],
+.dark input[type="email"],
+.dark input[type="password"],
+.dark select,
+.dark .select,
+.dark textarea {
     background: none;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
     color: #fff;
 }
 
-.dark form input[type="text"]:focus,
-.dark form input[type="email"]:focus,
-.dark form input[type="password"]:focus,
-.dark form select:focus,
-.dark form .select:focus,
-.dark form textarea:focus {
+.dark input[type="text"]:focus,
+.dark input[type="email"]:focus,
+.dark input[type="password"]:focus,
+.dark select:focus,
+.dark .select:focus,
+.dark textarea:focus {
     background: rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 0 0 1px #fff;
 }
 
-.dark form .select:before {
+.dark .select:before {
     background: url("images/dark-arrow.svg") center center no-repeat;
     background-size: contain;
 }
 
-.dark form .formerize-placeholder {
+.dark .formerize-placeholder {
     color: #aaa !important;
     color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.dark form ::-webkit-input-placeholder {
+.dark ::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.dark form :-moz-placeholder {
+.dark :-moz-placeholder {
     color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.dark form ::-moz-placeholder {
+.dark ::-moz-placeholder {
     color: rgba(255, 255, 255, 0.85) !important;
 }
 
-.dark form :-ms-input-placeholder {
+.dark :-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.85) !important;
 }
 
@@ -2253,7 +2253,7 @@ button.alt:hover,
     background: #433;
 }
 
-.main > .content.style1 {
+/*.main > */.content.style1 {
     background: url("../../images/love.jpg") top left no-repeat;
     background-size: cover;
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
