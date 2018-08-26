@@ -2204,14 +2204,14 @@ button.alt:hover,
 #header header h1 {
     font-size: 4em;
     line-height: 1.25em;
-    margin-bottom: 0;
+    margin-bottom: -10px;
 }
 
 #header header p {
     margin-top: 0;
+    margin-bottom: -8px;
     padding: 0;
-    font-size: 1.25em;
-    line-height: 1.5em;
+    font-size: 1.2em;
     text-align: inherit;
 }
 
