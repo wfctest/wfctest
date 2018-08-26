@@ -2505,3 +2505,7 @@ button.alt:hover,
     }
 
 }
+
+.row img {
+    width: 100%;
+}
