@@ -2509,3 +2509,6 @@ button.alt:hover,
 .row img {
     width: 100%;
 }
+.row img ~ p {
+    text-align: center;
+}
