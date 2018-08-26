@@ -2237,7 +2237,7 @@ button.alt:hover,
 }
 
 .main > header p {
-    padding: 0;
+    padding: 5px 0;
     /*text-align: center;*/
 }
 
