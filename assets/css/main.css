@@ -2257,7 +2257,6 @@ button.alt:hover,
 /*.main > */.content.style1 {
     background: url("../../images/love.jpg") top left no-repeat;
     background-size: cover;
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
     height: 150vh;
 }
 
@@ -2515,4 +2514,19 @@ button.alt:hover,
 }
 .row img ~ p {
     text-align: center;
+}
+
+#about header {
+    padding-top: 35px;
+}
+
+.rect {
+    margin: 0 auto;
+    background: white;
+    color: #888;
+    width: 95%;
+    padding: 25px;
+}
+.rect h2 {
+    color: inherit;
 }
