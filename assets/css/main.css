@@ -2257,6 +2257,7 @@ button.alt:hover,
 /*.main > */.content.style1 {
     background: url("../../images/love.jpg") top left no-repeat;
     background-size: cover;
+    height: 45vw;
 }
 
 .main > .content.style2 {
