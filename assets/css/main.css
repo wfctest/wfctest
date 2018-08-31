@@ -2517,14 +2517,3 @@ button.alt:hover,
 #about header {
     padding-top: 35px;
 }
-
-.rect {
-    margin: 0 auto;
-    background: white;
-    color: #888;
-    width: 95%;
-    padding: 25px;
-}
-.rect h2 {
-    color: inherit;
-}
