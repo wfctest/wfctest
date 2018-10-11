@@ -2260,8 +2260,9 @@ button.alt:hover,
     height: 45vw;
 }
 
-.main > .content.style2 {
+/*.main > .content.style2*/#partners {
     background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
+    padding: 45px 0;
 }
 
 .main > .content.style3 {
