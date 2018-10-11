@@ -2254,7 +2254,7 @@ button.alt:hover,
     background: #433;
 }
 
-/*.main > */.content.style1 {
+/*.main > .content.style1 */#about {
     background: url("../../images/love.jpg") top left no-repeat;
     background-size: cover;
     height: 45vw;
