@@ -163,11 +163,11 @@ a {
     transition: border-bottom-color 0.25s ease-in-out;
     color: inherit;
     text-decoration: none;
-    border-bottom: dotted 1px rgba(0, 0, 0, 0.25);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.3);
 }
 
 a:hover {
-    border-bottom-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 1);
 }
 
 .dark a {
