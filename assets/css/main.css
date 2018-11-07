@@ -2503,6 +2503,7 @@ button.alt:hover,
 }
 
 nav {
+    width: 0;
     position: absolute;
     top: 0;
     width: 100vw;
