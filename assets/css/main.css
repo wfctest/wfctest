@@ -254,7 +254,7 @@ br.clear {
 .container {
     margin: 0 auto;
     max-width: 100%;
-    width: 1360px;
+    width: 1260px;
 }
 
 .container.medium {
@@ -2227,7 +2227,7 @@ button.alt:hover,
 }
 
 .main > .content {
-    padding: 3em 0 3em 0;
+    padding: 4em 60px;
 }
 
 .main > .content h3 {
@@ -2246,7 +2246,6 @@ button.alt:hover,
 
 /*.main > .content.style2*/#partners {
     background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
-    padding: 45px 0;
 }
 
 .main > .content.style3 {
