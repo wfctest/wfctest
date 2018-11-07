@@ -219,18 +219,6 @@ p {
     text-align: justify;
 }
 
-/* ADDED */
-nav {
-    position: absolute;
-    top: 0;
-    padding: 30px;
-    width: 100vw;
-    z-index: 10;
-}
-nav img {
-    width: 200px;
-}
-
 header {
     margin-bottom: 1em;
 }
@@ -1604,10 +1592,6 @@ ul {
     padding-left: 1em;
 }
 
-ul li {
-    padding-left: 0.5em;
-}
-
 ol {
     list-style: decimal;
     padding-left: 1.25em;
@@ -2517,4 +2501,35 @@ button.alt:hover,
 
 #about header {
     padding-top: 35px;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
+}
+nav img {
+    margin: 30px;
+    width: 200px;
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    padding: 5px 0;
+}
+nav li a {
+    left: 0;
+    background: white;
+    color: black;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-left: solid 5px transparent;
+}
+nav li a:hover {
+    border-left-color: #333;
+    transition: border-left-color 0.1s;
 }
