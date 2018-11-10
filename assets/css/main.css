@@ -39,6 +39,9 @@ nav li a {
 section {
     padding: 10px 30px;
 }
+section > h1 ~ img {
+    text-align: center;
+}
 section.wide {}
 section.jumbotron {
     background-image: url("images/overlay.png"), url("../../images/header.jpg");
@@ -51,6 +54,11 @@ section.jumbotron {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 30px;
+}
+/* Gridded images; used on Welcoming Week page */
+/* TODO: Maybe a good idea to make a special class for this */
+.row .row > div > img {
+    width: 100%;
 }
 footer {
     background: #eee;
@@ -86,30 +94,14 @@ footer {
         box-sizing: border-box;
         padding: 20px;
     }
-    .row > .col-1 {
-        width: 8.3333333333%;
-    }
-    .row > .col-2 {
-        width: 16.6666666667%;
-    }
-    .row > .col-3 {
-        width: 25%;
-    }
-    .row > .col-4 {
-        width: 33.3333333333%;
-    }
-    .row > .col-5 {
-        width: 41.6666666667%;
-    }
-    .row > .col-6 {
-        width: 50%;
-    }
-    .row > .col-7 {
-        width: 58.3333333333%;
-    }
-    .row > .col-8 {
-        width: 66.6666666667%;
-    }
+    .row > .col-1 { width: 8.3333333333%; }
+    .row > .col-2 { width: 16.6666666667%; }
+    .row > .col-3 { width: 25%; }
+    .row > .col-4 { width: 33.3333333333%; }
+    .row > .col-5 { width: 41.6666666667%; }
+    .row > .col-6 { width: 50%; }
+    .row > .col-7 { width: 58.3333333333%; }
+    .row > .col-8 { width: 66.6666666667%; }
 }
 
 /* Major elements */
