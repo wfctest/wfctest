@@ -47,16 +47,25 @@ section > h1 ~ img {
 }
 section.wide {}
 section.jumbotron {
-    background-image: url("images/overlay.png"), url("../../images/header.jpg");
-    background-size: auto, cover;
-    background-position: top left, center center;
-    background-repeat: repeat, no-repeat;
-    height: 100vh;
+    /* TODO: This is specific to the homepage... */
+    background-image: url("../../images/header.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border: solid white;
+    border-width: 0 2vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-end;
+    text-align: right;
     padding: 30px;
+}
+section.jumbotron > * {
+    max-width: 100%;
+}
+section.jumbotron {
+
 }
 /* Images on Welcoming Week page */
 /* TODO: handle scaling in a less clumsy way than this mess */
