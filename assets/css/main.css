@@ -58,9 +58,10 @@ section.jumbotron {
     align-items: flex-end;
     padding: 30px;
 }
-/* Gridded images; used on Welcoming Week page */
-/* TODO: Maybe a good idea to make a special class for this */
-.row .row > div > img {
+/* Images on Welcoming Week page */
+/* TODO: handle scaling in a less clumsy way than this mess */
+.row .row > div > img,
+.row > div > img {
     width: 100%;
 }
 footer {
