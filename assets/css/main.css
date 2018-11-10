@@ -23,6 +23,9 @@ nav img,
 nav ul {
     display: inline-block;
 }
+nav #logo {
+    border: none;
+}
 nav img {
     width: 200px;
 }
