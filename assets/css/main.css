@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     font-size: 18pt;
     color: #666;
-    line-height: 1.25;
+    line-height: 1.4;
 }
 
 /* Major regions */
@@ -23,7 +23,6 @@ nav ul {
     display: inline-block;
 }
 nav img {
-    margin: 10px;
     width: 200px;
 }
 nav ul {
@@ -32,11 +31,11 @@ nav ul {
 }
 nav li a {
     display: inline-block;
-    margin: 5px 0;
+    margin: 2px 0;
     left: 0;
 }
 section {
-    padding: 20px 10px;
+    padding: 10px 30px;
 }
 .jumbotron {
     background-image: url("images/overlay.png"), url("../../images/header.jpg");
@@ -51,7 +50,9 @@ section {
     padding: 30px;
 }
 footer {
-    padding: 1.5em 0;
+    text-align: center;
+    color: #aaa;
+    padding: 1em 0;
 }
 .dark {
     color: white;
@@ -75,9 +76,6 @@ footer {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
-strong, b {
-    font-weight: 800;
-}
 a {
     transition: 0.25s ease-in-out;
     color: inherit;
@@ -95,6 +93,7 @@ a:hover {
 }
 p {
     text-align: justify;
+    padding: 6px 0;
 }
 /* Row */
 /* TODO: Minimize number of rules */
