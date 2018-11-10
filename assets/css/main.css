@@ -17,6 +17,7 @@ body {
 /* Major regions */
 nav {
     padding: 10px;
+    text-align: center;
 }
 nav img,
 nav ul {
@@ -28,6 +29,7 @@ nav img {
 nav ul {
     vertical-align: top;
     list-style-type: none;
+    text-align: left;
 }
 nav li a {
     display: inline-block;
@@ -50,19 +52,16 @@ section {
     padding: 30px;
 }
 footer {
-    text-align: center;
+    background: #eee;
     color: #aaa;
-    padding: 1em 0;
+    font-size: 80%;
+    text-align: center;
+    padding: 1em 3em;
 }
 .dark {
     color: white;
 }
 @media (min-width: 800px) {
-    nav {
-        position: absolute;
-        top: 0;
-        z-index: 10;
-    }
     section {
         padding: 30px 50px;
     }
