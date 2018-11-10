@@ -52,14 +52,9 @@ section.jumbotron {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: 80vh;
     border: solid white;
     border-width: 0 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: right;
-    padding: 30px;
+    height: 30vh;
 }
 section.jumbotron > * {
     max-width: 100%;
@@ -96,6 +91,9 @@ footer {
     }
 }
 @media (min-width: 1000px) {
+    section.jumbotron {
+        height: 80vh;
+    }
     /* Rows */
     .row {
         display: flex;
