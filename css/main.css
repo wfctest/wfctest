@@ -11,7 +11,7 @@ body {
     font-weight: 300;
     font-size: 18pt;
     color: #666;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 /* Major regions */
@@ -36,8 +36,6 @@ nav ul {
 }
 nav li a {
     display: inline-block;
-    margin: 2px 0;
-    left: 0;
 }
 section {
     padding: 10px 30px;
@@ -79,6 +77,9 @@ footer {
     color: white;
 }
 @media (min-width: 800px) {
+    nav ul {
+        margin-left: 5px;
+    }
     section {
         padding: 30px 50px;
     }
