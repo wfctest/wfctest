@@ -3,9 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
     box-sizing: border-box;
     vertical-align: baseline;
 }
@@ -51,6 +48,18 @@ nav li a {
 nav li a:hover {
     border-left-color: #333;
     transition: border-left-color 0.1s;
+}
+.jumbotron {
+    background-image: url("images/overlay.png"), url("../../images/header.jpg");
+    background-size: auto, cover;
+    background-position: top left, center center;
+    background-repeat: repeat, no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 30px;
 }
 footer {
     padding: 1.5em 0;
@@ -141,41 +150,6 @@ p {
 }
 .row > .off-8 {
     margin-left: 66.6666666667%;
-}
-/* Header */
-#header {
-    position: relative;
-    margin: 0;
-    background-image: url("images/overlay.png"), url("../../images/header.jpg");
-    background-size: auto, cover;
-    background-position: top left, center center;
-    background-repeat: repeat, no-repeat;
-    color: #fff;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 30px;
-}
-#header header {
-    /*background: rgba(0, 0, 0, 0.4);*/
-    text-align: right;
-}
-#header header h1 {
-    font-size: 4em;
-    line-height: 1.25em;
-    margin-bottom: -10px;
-}
-#header header p {
-    margin-top: 0;
-    margin-bottom: -8px;
-    padding: 0;
-    font-size: 1.2em;
-    text-align: inherit;
-}
-#header footer {
-    padding-top: 0;
 }
 #about {
     background: url("../../images/love.jpg") top left no-repeat;
