@@ -39,7 +39,8 @@ nav li a {
 section {
     padding: 10px 30px;
 }
-.jumbotron {
+section.wide {}
+section.jumbotron {
     background-image: url("images/overlay.png"), url("../../images/header.jpg");
     background-size: auto, cover;
     background-position: top left, center center;
@@ -69,6 +70,46 @@ footer {
         max-width: 10in;
         margin: 0 auto;
     }
+    section.wide > * {
+        max-width: 14in;
+    }
+}
+@media (min-width: 1000px) {
+    /* Rows */
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        align-items: stretch;
+    }
+    .row > * {
+        box-sizing: border-box;
+        padding: 20px;
+    }
+    .row > .col-1 {
+        width: 8.3333333333%;
+    }
+    .row > .col-2 {
+        width: 16.6666666667%;
+    }
+    .row > .col-3 {
+        width: 25%;
+    }
+    .row > .col-4 {
+        width: 33.3333333333%;
+    }
+    .row > .col-5 {
+        width: 41.6666666667%;
+    }
+    .row > .col-6 {
+        width: 50%;
+    }
+    .row > .col-7 {
+        width: 58.3333333333%;
+    }
+    .row > .col-8 {
+        width: 66.6666666667%;
+    }
 }
 
 /* Major elements */
@@ -96,65 +137,6 @@ a:hover {
 p {
     text-align: justify;
     padding: 6px 0;
-}
-/* Row */
-/* TODO: Minimize number of rules */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    align-items: stretch;
-}
-.row > * {
-    box-sizing: border-box;
-}
-.row > .col-1 {
-    width: 8.3333333333%;
-}
-.row > .off-1 {
-    margin-left: 8.3333333333%;
-}
-.row > .col-2 {
-    width: 16.6666666667%;
-}
-.row > .off-2 {
-    margin-left: 16.6666666667%;
-}
-.row > .col-3 {
-    width: 25%;
-}
-.row > .off-3 {
-    margin-left: 25%;
-}
-.row > .col-4 {
-    width: 33.3333333333%;
-}
-.row > .off-4 {
-    margin-left: 33.3333333333%;
-}
-.row > .col-5 {
-    width: 41.6666666667%;
-}
-.row > .off-5 {
-    margin-left: 41.6666666667%;
-}
-.row > .col-6 {
-    width: 50%;
-}
-.row > .off-6 {
-    margin-left: 50%;
-}
-.row > .col-7 {
-    width: 58.3333333333%;
-}
-.row > .off-7 {
-    margin-left: 58.3333333333%;
-}
-.row > .col-8 {
-    width: 66.6666666667%;
-}
-.row > .off-8 {
-    margin-left: 66.6666666667%;
 }
 #about {
     background: url("../../images/love.jpg") top left no-repeat;
