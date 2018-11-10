@@ -84,37 +84,6 @@ a:hover {
 p {
     text-align: justify;
 }
-/* Container */
-/* TODO: remove this */
-.container {
-    margin: 0 auto;
-    max-width: 100%;
-    width: 1260px;
-}
-.container.medium {
-    width: 1020px;
-}
-@media screen and (max-width: 1680px) {
-    .container {
-        width: 1200px;
-    }
-    .container.medium {
-        width: 900px;
-    }
-}
-@media screen and (max-width: 1280px) {
-    .container {
-        width: 960px;
-    }
-    .container.medium {
-        width: 720px;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .container {
-        width: 100% !important;
-    }
-}
 /* Row */
 .row {
     display: flex;
