@@ -45,8 +45,6 @@ section > h1 ~ img {
 }
 section.wide {}
 section.jumbotron {
-    /* TODO: This is specific to the homepage... */
-    background-image: url("../../images/header.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -54,11 +52,14 @@ section.jumbotron {
     border-width: 0 2vw;
     height: 30vh;
 }
+section.jumbotron.home {
+    background-image: url("../../images/header.jpg");
+}
+section.jumbotron.about {
+    background-image: url("../../images/love.jpg");
+}
 section.jumbotron > * {
     max-width: 100%;
-}
-section.jumbotron {
-
 }
 /* Images on Welcoming Week page */
 /* TODO: handle scaling in a less clumsy way than this mess */
