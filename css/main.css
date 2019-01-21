@@ -103,6 +103,7 @@ footer {
     .row > * {
         box-sizing: border-box;
         padding: 20px;
+        vertical-align: middle;
     }
     .row > .col-1 { width: 8.3333333333%; }
     .row > .col-2 { width: 16.6666666667%; }
@@ -133,12 +134,4 @@ a:hover {
 p {
     text-align: justify;
     padding: 6px 0;
-}
-#about {
-    background: url("../../images/love.jpg") top left no-repeat;
-    background-size: cover;
-    height: 45vw;
-}
-#partners {
-    background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/overlay.png"), linear-gradient(45deg, #384955, #655361, #85505f);
 }
