@@ -74,9 +74,6 @@ footer {
     text-align: center;
     padding: 1em 3em;
 }
-.dark {
-    color: white;
-}
 @media (min-width: 800px) {
     nav ul {
         margin-left: 5px;
@@ -132,12 +129,6 @@ a {
 }
 a:hover {
     border-bottom-color: rgba(0, 0, 0, 1);
-}
-.dark a {
-    border-bottom-color: rgba(255, 255, 255, 0.5);
-}
-.dark a:hover {
-    border-bottom-color: rgba(255, 255, 255, 0);
 }
 p {
     text-align: justify;
