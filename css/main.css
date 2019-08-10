@@ -64,6 +64,9 @@ section {
 section > h1 ~ img {
     text-align: center;
 }
+section ul {
+    margin-left: 25px;
+}
 section.wide {}
 section.jumbotron {
     background-size: cover;
