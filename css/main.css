@@ -89,7 +89,7 @@ section {
 section > h1 ~ img {
     text-align: center;
 }
-section ul {
+section ul, section ol {
     padding-left: 25px;
 }
 section.wide {}
