@@ -139,6 +139,9 @@ a {
 a:hover {
     border-bottom-color: rgba(0, 0, 0, 1);
 }
+strong {
+    font-weight: 700;
+}
 nav li a {
     border-bottom: none;
     position: relative;
