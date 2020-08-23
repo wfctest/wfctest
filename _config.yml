@@ -1,7 +1,7 @@
 title: Welcoming Falls Church
 email: welcomingfallschurch@gmail.com
 baseurl: "" # the subpath of the site, e.g. /blog
-url: "https://andrewlester.github.io/welcomingfallschurch.github.io" # the base hostname & protocol for your site
+url: "http://welcomingfallschurch.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
