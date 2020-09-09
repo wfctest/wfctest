@@ -22,8 +22,8 @@ navButton.addEventListener('click', function() {
 
 bannerButton.addEventListener('click', function() {
     var request = new XMLHttpRequest();
-    request.open('POST', '/unknown', true);
-    request.send(bannerInput.value);
+    request.open('GET', 'https://script.google.com/macros/s/AKfycbw2e2oMcsqfooG0QYbp38-vS4bYJvKii2hLQ9sKKO2tO9s6vWP5/exec?email=' + encodeURIComponent(bannerInput.value));
+    request.send();
     bannerInput.value = '';
     bannerButton.value = 'Sent';
     setTimeout(function() { 

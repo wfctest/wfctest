@@ -372,7 +372,7 @@ input:not([type="submit"]) {
         margin-top: 20px;
     }
     body nav + .banner {
-        display: none;
+        display: flex;
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
