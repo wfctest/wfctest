@@ -86,7 +86,7 @@ nav li ul li {
     width: min-content
 }
 /* First section, only if it's not a jumbotron */
-body > section:not(.jumbotron):first-of-type {
+body > section:first-of-type {
     margin-top: 50px;
 }
 section {
