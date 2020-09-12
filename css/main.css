@@ -368,6 +368,10 @@ input:not([type="submit"]) {
     .row.small > .col-8 { width: 66.6666666667%; }
 }
 @media (min-width: 1050px) {
+    body > nav {
+        display: flex;
+        justify-content: center;
+    }
     body > nav ~ section > h1 + p {
         margin-top: 20px;
     }
