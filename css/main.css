@@ -184,6 +184,9 @@ p.heading {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+mark {
+    color: inherit;
+}
 /* .jumbotron.split ~ p {
     clear: both;
 } */
